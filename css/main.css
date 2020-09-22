@@ -59,6 +59,21 @@ section#home {
   height: 100vh;
   width: 50%;
 }
+.izquierda2
+{
+  background: whitesmoke;
+  width: 50%;
+  height: 100vh;
+}
+.derecha2 {
+  
+  background: url(/img/thiago-medeiros-araujo-A2GQakkREsM-unsplash@2x.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 50%;
+
+}
 .derecha {
   
   background: whitesmoke;
@@ -70,6 +85,37 @@ section#home {
   display: flex;
   
   
+}
+.np2{
+  font-size: 3rem;
+  padding-left: 20%;
+  color: black;
+  font-family: 'Lato', sans-serif;
+
+}
+.p2{
+  font-size: 1.8rem;
+  padding-left: 10%;
+  color:#7F7F7F;
+  font-family: 'Poppins', sans-serif;
+
+}
+.but2{
+  margin-top: 5cm;
+  margin-left: 4cm;
+  text-decoration: none;
+    padding: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #6DC1F3;
+    border-radius: 36px;
+    border: 3px double #6DC1F3;
+
 }
 
 .np{
@@ -128,7 +174,14 @@ section#contact {
     height: 100vh;
     width: 50%;
   }
-  .derecha {
+  .izquierda2{
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+  }
+  .derecha, .derecha2 {
     
   
   }
@@ -143,6 +196,27 @@ section#contact {
   
   }
   .but{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    width: 80%;
+    
+    
+  }
+  .np2{
+    font-size: 3rem;
+    padding-left: 10%;
+  
+  }
+  .p2{
+    font-size: 1.9rem;
+    padding-left: 10%;
+  
+  }
+  .but2{
     margin-top: 1cm;
     margin-left: 1cm;
     padding: 18px;
@@ -169,42 +243,8 @@ section#contact {
     height: 100vh;
     width: 50%;
   }
-  .derecha {
+  .izquierda2{
     
-  
-  }
-  .np{
-    font-size: 3rem;
-    padding-left: 40mm;
-  
-  }
-  .p{
-    font-size: 1.9rem;
-    padding-left: 0mm;
-  
-  }
-  .but{
-    margin-top: 1cm;
-    margin-left: 1cm;
-    padding: 18px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 30px;
-    width: 80%;
-    
-    
-  }
-
-  
-
-}
-@media screen and (max-width: 1408px){
-  #pantalla-dividida {
-      flex-direction: row-reverse;
-      
-  }
-  .izquierda {
-    background: url(/img/ines-alvarez-fdez-L_N7BaNLC5Y-unsplash.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -216,15 +256,36 @@ section#contact {
   }
   .np{
     font-size: 3rem;
-    padding-left: 40mm;
+    padding-left: 30%;
   
   }
   .p{
     font-size: 1.9rem;
-    padding-left: 0mm;
+    padding-left: 10%;
   
   }
   .but{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    width: 80%;
+    
+    
+  }
+  .np2{
+    font-size: 3rem;
+    padding-left: 10%;
+  
+  }
+  .p2{
+    font-size: 1.9rem;
+    padding-left: 10%;
+  
+  }
+  .but2{
     margin-top: 1cm;
     margin-left: 1cm;
     padding: 18px;
@@ -239,6 +300,7 @@ section#contact {
   
 
 }
+
 @media screen and (max-width: 1024px) {
   #pantalla-dividida {
     flex-direction: row-reverse; 
@@ -248,6 +310,13 @@ section#contact {
   background-size: cover;
   background-position: 72vh;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
 }
 .derecha {
   
@@ -274,6 +343,27 @@ section#contact {
     width: 80%;
   
 }
+.np2{
+  font-size:  2.2rem;
+  padding-left: 10%;
+
+}
+.p2{
+  font-size: 1.8rem;
+  padding-left: 10%;
+
+}
+.but2{
+  margin-top: 1cm;
+  margin-left: 1cm;
+  padding: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  width: 80%;
+  
+  
+}
 }
 @media screen and (max-width: 1011px) {
   #pantalla-dividida {
@@ -284,6 +374,13 @@ section#contact {
   background-size: cover;
   background-position: center;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: center;
+  
+
 }
 .derecha {
 
@@ -309,6 +406,27 @@ section#contact {
     font-size: 30px;
     width: 80%;
 }
+.np2{
+  font-size:  2.2rem;
+  padding-left: 10%;
+
+}
+.p2{
+  font-size: 1.8rem;
+  padding-left: 10%;
+
+}
+.but2{
+  margin-top: 1cm;
+  margin-left: 1cm;
+  padding: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  width: 80%;
+  
+  
+}
   
 }
 @media screen and (max-width: 640px) {
@@ -321,6 +439,13 @@ section#contact {
   background-position: 72vh;
   
 }
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
+}
 .derecha {
   
 
@@ -331,7 +456,7 @@ section#contact {
 
 }
 .p{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   padding-left: 0mm;
 
 }
@@ -341,8 +466,29 @@ section#contact {
     padding: 18px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 30px;
+    font-size: 19px;
     width: 80%;
+  
+}
+.np2{
+  font-size:  2rem;
+  padding-left: 10%;
+
+}
+.p2{
+  font-size: 1.2rem;
+  padding-left: 10%;
+
+}
+.but2{
+  margin-top: cm;
+  margin-left: 1cm;
+  padding: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 19px;
+  width: 80%;
+  
   
 }
 }
@@ -355,6 +501,13 @@ section#contact {
   background-size: cover;
   background-position: 72vh;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
 }
 .derecha {
   
@@ -385,11 +538,18 @@ section#contact {
   #pantalla-dividida {
     flex-direction: row-reverse; 
 }
-.izquierda {
+.izquierda{
   background: url(/img/ines-alvarez-fdez-L_N7BaNLC5Y-unsplash.png);
   background-size: cover;
   background-position: 72vh;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
 }
 .derecha {
   
@@ -426,6 +586,13 @@ section#contact {
   background-position: 72vh;
   
 }
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
+}
 .derecha {
   
 
@@ -456,11 +623,18 @@ section#contact {
   #pantalla-dividida {
     flex-direction: row-reverse; 
 }
-.izquierda {
+.izquierda{
   background: url(/img/ines-alvarez-fdez-L_N7BaNLC5Y-unsplash.png);
   background-size: cover;
   background-position: 72vh;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
 }
 .derecha {
   
@@ -500,6 +674,13 @@ section#contact {
   background-position: 72vh;
   
 }
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
+}
 .derecha {
   
 
@@ -538,6 +719,13 @@ section#contact {
   background-position: 72vh;
   
 }
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
+}
 .derecha {
   
 
@@ -570,11 +758,18 @@ section#contact {
   #pantalla-dividida {
     flex-direction: row-reverse; 
 }
-.izquierda {
+.izquierda{
   background: url(/img/ines-alvarez-fdez-L_N7BaNLC5Y-unsplash.png);
   background-size: cover;
   background-position: 72vh;
   
+}
+.izquierda2{
+  
+  background-size: cover;
+  background-position: 72vh;
+  
+
 }
 .derecha {
   
