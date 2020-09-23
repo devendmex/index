@@ -82,7 +82,7 @@
 }
 
   section#home {
-    background: url('/img/amin-hasani-C_cG9ZV2Zk0-unsplash.png') no-repeat top ;;
+    background: url('https://res.cloudinary.com/dovlgmcsj/image/upload/v1600889482/izkimac44fiiht16dlyf.png') no-repeat top ;;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -137,7 +137,7 @@
 
 
   .izquierda {
-    background: url(/img/ines-alvarez-fdez-L_N7BaNLC5Y-unsplash.png);
+    background: url(https://res.cloudinary.com/dovlgmcsj/image/upload/v1600889478/o8kp88za8q84qlshoz8x.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -151,7 +151,7 @@
   }
   .derecha2 {
     
-    background: url(/img/thiago-medeiros-araujo-A2GQakkREsM-unsplash@2x.jpg);
+    background: url(https://res.cloudinary.com/dovlgmcsj/image/upload/v1600889478/bl2s3w5kgmd2ts15ko5l.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
