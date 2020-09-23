@@ -126,7 +126,7 @@
       border: 3px double #6DC1F3;
   
   }
-  .but:hover{
+  .but:hover , .but2:hover, .but3:hover{
     opacity: 0.6;
     text-decoration: none;
   }
